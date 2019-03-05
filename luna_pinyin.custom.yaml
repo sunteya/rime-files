@@ -1,0 +1,12 @@
+__patch:
+# Rx: emoji:customize:schema=luna_pinyin {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }
+
+patch:
+  "translator/dictionary": luna_pinyin.extended
+  "punctuator/half_shape/=": 0
+  "key_binder/bindings":
+    - { when: always, accept: Shift+space, toggle: full_shape }
+  "emoji_suggestion/tips":
