@@ -1,0 +1,10 @@
+---
+name: luna_pinyin.extended
+version: "2019-03-05"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - luna_pinyin
+  - extended.sogou
+  - extended.contacts
+...

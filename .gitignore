@@ -1,0 +1,8 @@
+/build/
+/extended.*.dict.yaml
+/luna_pinyin.userdb/
+
+/emoji_suggestion.yaml
+/opencc/emoji_category.txt
+/opencc/emoji_word.txt
+/opencc/emoji.json
