@@ -19,6 +19,7 @@ CELLS = {
 
 BASE = Pathname.new(__dir__)
 BUILD = BASE.join("build", "sogou")
+BUILD.mkpath
 
 def clean
   BUILD.rmtree()
