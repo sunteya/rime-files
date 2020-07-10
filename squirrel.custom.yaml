@@ -1,8 +1,6 @@
 patch:
-  style:
-    color_scheme: native
-    corner_radius: 5
-    horizontal: true
-    inline_preedit: true
-    font_point: 18
+  "style/color_scheme": native
+  "style/corner_radius": 3
+  "style/horizontal": true
+  "style/font_point": 18
   app_options:

@@ -6,5 +6,3 @@ patch:
   "translator/dictionary": luna_pinyin.extended
   "punctuator/half_shape/=": 0
   "emoji_suggestion/tips":
-  # "key_binder/bindings":
-  #   - { when: always, accept: Shift+space, toggle: full_shape }
