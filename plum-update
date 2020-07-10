@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+./plum/rime-install packages.conf
+
+rm double_pinyin_abc.schema.yaml
+rm double_pinyin_flypy.schema.yaml
+rm double_pinyin_mspy.schema.yaml
+rm double_pinyin_pyjj.schema.yaml
+
+rm luna_pinyin_fluency.schema.yaml
+rm luna_pinyin_simp.schema.yaml
+rm luna_pinyin_tw.schema.yaml
+rm luna_quanpin.schema.yaml

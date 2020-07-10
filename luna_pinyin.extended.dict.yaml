@@ -5,6 +5,7 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
-  - extended.sogou
+  - extended.sogou.popular
+  - extended.sogou.games
   - extended.contacts
 ...
