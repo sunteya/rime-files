@@ -10,6 +10,12 @@
 * 屏蔽 shfit 切换中英文 (结合其他软件用 caplock 切换)
 * (第三方软件 caplock 切换, mac: [Hammerspoon](https://www.hammerspoon.org/), win: [AutoHotKey](https://www.autohotkey.com/))
 
+## 基础环境
+
+* ruby
+* python3
+* [opencc](https://github.com/BYVoid/OpenCC)
+
 ## 1. 安装预设配置
 
 ````
@@ -27,5 +33,5 @@ bundle
 
 cd ~/Library/Rime
 ruby scripts/sogou.rb
-ruby scripts/contacts.rb # 5~10 minutes
+ruby scripts/contacts.rb # about 5~10 minutes
 ````
