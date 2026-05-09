@@ -3,3 +3,5 @@
 /src/rime-ice/
 /sync/
 /src/KeyTao/
+/src/rime-huma/
+*.userdb

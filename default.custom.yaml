@@ -2,7 +2,8 @@ patch:
   menu/page_size: 8
   schema_list:
     - schema: rime_ice
-    - schema: keytao
+    # - schema: keytao
+    - schema: huma_trad
 
   ascii_composer/switch_key/Shift_L: noop
   ascii_composer/switch_key/Shift_R: noop
