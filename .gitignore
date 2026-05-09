@@ -1,18 +1,3 @@
-# plum
-/essay.txt
-/double_pinyin.schema.yaml
-/luna_pinyin.schema.yaml
-/luna_pinyin.dict.yaml
-/emoji_suggestion.yaml
-/opencc/emoji_category.txt
-/opencc/emoji_word.txt
-/opencc/emoji.json
-
-# app
 /build/
-/user.yaml
-/installation.yaml
-
-# user
-/luna_pinyin.userdb/
-/extended.*.dict.yaml
+/rime_ice.userdb
+/src/rime-ice/

@@ -1,0 +1,16 @@
+# __patch:
+#   - patch/+:
+#       __include: emoji_suggestion:/patch
+
+patch:
+  # 扩展词库
+  "translator/dictionary": rime_ice.ext
+
+  # # 半角下不映射标点，英文标点
+  # "punctuator/half_shape/=": {}
+  punctuator/half_shape/+:
+    " ": { commit: "　" }
+
+  # "emoji_suggestion/tips":
+  # "key_binder/bindings":
+  #   - { when: always, accept: Shift+space, toggle: full_shape }
