@@ -10,6 +10,8 @@ rsync -aL \
   --exclude='.git/' \
   --exclude='.github/' \
   --exclude='.gitignore' \
+  --exclude='AGENTS.md' \
+  --exclude='recipe.yaml' \
   --exclude='custom_phrase.txt' \
   --exclude='default.yaml' \
   --exclude='double_pinyin*.schema.yaml' \

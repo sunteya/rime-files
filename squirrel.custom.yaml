@@ -1,5 +1,5 @@
 patch:
   style/corner_radius: 3
-  style/horizontal: true
+  style/candidate_list_layout: linear
   style/font_point: 18
   app_options:
