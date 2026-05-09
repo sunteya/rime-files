@@ -4,13 +4,15 @@
 
 patch:
   # 扩展词库
-  "translator/dictionary": rime_ice.ext
+  translator/dictionary: rime_ice.ext
+  switches/@1/reset: 1
 
-  # # 半角下不映射标点，英文标点
-  # "punctuator/half_shape/=": {}
+  # 中文标点状态下空格也使用全角；英文标点状态会绕过 punctuator，仍是半角空格。
   punctuator/half_shape/+:
     " ": { commit: "　" }
 
   # "emoji_suggestion/tips":
   # "key_binder/bindings":
   #   - { when: always, accept: Shift+space, toggle: full_shape }
+  key_binder/bindings/+:
+    - { accept: Shift+space, toggle: ascii_punct, when: always }
