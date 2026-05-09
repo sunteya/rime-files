@@ -1,0 +1,8 @@
+patch:
+  switches/@0:
+    name: ascii_punct
+    reset: 1
+    states: [ 中标, 英标 ]
+
+  key_binder/bindings/+:
+    - { accept: Shift+space, toggle: ascii_punct, when: always }

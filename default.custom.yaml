@@ -2,13 +2,26 @@ patch:
   menu/page_size: 8
   schema_list:
     - schema: rime_ice
+    - schema: keytao
 
   ascii_composer/switch_key/Shift_L: noop
   ascii_composer/switch_key/Shift_R: noop
 
-  key_binder/bindings/+:
-    - { accept: Shift+space, toggle: ascii_punct, when: always }
-  key_binder/select_first_character: "bracketleft"
-  key_binder/select_last_character: "bracketright"
+  # key_binder/bindings/+:
+  #   - { accept: Shift+space, toggle: ascii_punct, when: always }
+
+  # key_binder/select_first_character: "bracketleft"
+  # key_binder/select_last_character: "bracketright"
 
   switcher/fold_options: false
+
+  # switcher:
+  #   caption: '「切换方案」'
+  #   hotkeys:
+  #     - 'Control+grave'
+  #     - 'F4'
+  # ascii_composer/good_old_caps_lock: true
+  # ascii_composer/switch_key:
+  #   Caps_Lock: commit_text
+  #   Shift_L: commit_text
+
