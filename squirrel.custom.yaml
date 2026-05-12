@@ -1,5 +1,15 @@
 patch:
   # style/corner_radius: 3
+  app_options:
+  inline_candidate: true
+
+  # for RimeIce
   # style/candidate_list_layout: linear
   # style/font_point: 18
-  app_options:
+
+  # for KeyTao
+  style/candidate_format: " [candidate] [comment]"
+  style/font_point: 16
+
+  # 鼠须管盲打，嵌入首选，删除下面两行的#号，即可生效
+  # alpha: 0.0001

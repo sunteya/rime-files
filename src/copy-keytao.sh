@@ -9,6 +9,8 @@ keytao="$src/KeyTao"
 rsync -aL \
   --exclude="keytao-bj.schema.yaml" \
   --exclude="keytao-dz*.dict.yaml" \
+  --exclude="default.custom.yaml" \
+  --exclude="user.yaml" \
   "$keytao/rime/" \
   "$root/"
 

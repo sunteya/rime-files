@@ -4,5 +4,17 @@ patch:
     reset: 1
     states: [ 中标, 英标 ]
 
+  # engine/processors/@before 0: lua_processor@temp_ascii_processor
+
   key_binder/bindings/+:
     - { accept: Shift+space, toggle: ascii_punct, when: always }
+
+  # 让 / 和 ` 走半角标点直接上屏，避免作为编码字符或反查前缀弹出候选。
+  speller/alphabet: "abcdefghijklmnopqrstuvwxyz;"
+  speller/initials: "abcdefghijklmnopqrstuvwxyz;"
+  recognizer/patterns/danzi_lookup: "^$"
+  recognizer/patterns/pinyin: "^$"
+  punctuator/half_shape/+:
+    "/" : "/"
+
+  editor/bindings/Return: commit_raw_input

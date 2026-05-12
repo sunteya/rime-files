@@ -1,7 +1,4 @@
 /build/
-/rime_ice.userdb
-/src/rime-ice/
 /sync/
-/src/KeyTao/
-/src/rime-huma/
-*.userdb
+/*.userdb
+/user.yaml
