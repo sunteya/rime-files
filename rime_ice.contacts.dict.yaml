@@ -1,0 +1,6 @@
+---
+name: contacts.pinyin
+version: "2026-05-17"
+sort: by_weight
+import_tables:
+  - user/contacts.pinyin

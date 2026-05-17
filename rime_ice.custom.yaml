@@ -4,7 +4,9 @@
 
 patch:
   # 扩展词库
-  translator/dictionary: rime_ice.ext
+  # translator/dictionary: rime_ice.ext
+  translator/packs: [ rime_ice.contacts ]
+
   switches/@1/reset: 1
 
   # 中文标点状态下空格也使用全角；英文标点状态会绕过 punctuator，仍是半角空格。
