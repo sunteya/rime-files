@@ -1,8 +1,0 @@
-__patch:
-  - patch/+:
-      __include: emoji_suggestion:/patch
-
-patch:
-  "translator/dictionary": luna_pinyin.extended
-  "punctuator/half_shape/=": 0
-  "emoji_suggestion/tips":
