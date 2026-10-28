@@ -1,0 +1,20 @@
+# 仅作为键道的部署依赖，编译特殊码表，不加入方案选单。
+schema:
+  schema_id: phrase_combiner
+  name: 接续组词码表
+  version: "1.0"
+
+engine:
+  translators:
+    - table_translator
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  algebra: []
+
+translator:
+  dictionary: phrase_combiner
+  prism: phrase_combiner
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false

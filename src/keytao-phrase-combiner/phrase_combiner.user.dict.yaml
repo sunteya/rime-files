@@ -1,0 +1,16 @@
+# Rime dictionary
+# 手工维护，不会被生成脚本覆盖。词条字段使用 Tab 分隔，编码不包含 ; 或 `。
+---
+name: phrase_combiner.user
+version: "1.0"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+  - weight
+...
+
+# 在下方添加词条，例如（去掉行首的 # 和空格后生效）：
+# 自行车	zkxgwe	100
+# 遥控器	yzkyqk	100

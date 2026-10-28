@@ -1,0 +1,18 @@
+patch:
+  "engine/processors/@before 3": lua_processor@*phrase_combiner_processor
+  "engine/translators/@after 1": lua_translator@*phrase_combiner_translator
+
+  schema/dependencies/+:
+    - phrase_combiner
+
+  phrase_combiner:
+    dictionary: phrase_combiner
+    prism: phrase_combiner
+    tag: phrase_combiner
+    enable_charset_filter: false
+    enable_completion: true
+    enable_sentence: false
+    enable_user_dict: false
+    initial_quality: 10000
+
+  recognizer/patterns/phrase_combiner: "^[a-z]+[`;][a-z`;]*$"

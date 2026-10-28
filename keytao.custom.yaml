@@ -1,4 +1,6 @@
 patch:
+  __include: phrase_combiner:/patch
+
   switches/@0:
     name: ascii_punct
     reset: 1
@@ -12,9 +14,15 @@ patch:
   # 让 / 和 ` 走半角标点直接上屏，避免作为编码字符或反查前缀弹出候选。
   speller/alphabet: "abcdefghijklmnopqrstuvwxyz;"
   speller/initials: "abcdefghijklmnopqrstuvwxyz;"
+
   recognizer/patterns/danzi_lookup: "^$"
   recognizer/patterns/pinyin: "^$"
+  punctuator/full_shape/+:
+    "'": { pair: [ "‘", "’" ] }
+    '"': { pair: [ "“", "”" ] }
   punctuator/half_shape/+:
+    "'": { pair: [ "‘", "’" ] }
+    '"': { pair: [ "“", "”" ] }
     "/" : "/"
 
   editor/bindings/Return: commit_raw_input

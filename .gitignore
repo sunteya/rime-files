@@ -3,3 +3,4 @@
 /*.userdb
 /user.yaml
 /user/
+__pycache__
