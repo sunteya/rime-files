@@ -1,0 +1,2095 @@
+"alphabeticButtonBackgroundStyle":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"alphabeticHintBackgroundStyle":
+  "borderSize": 0.5
+  "buttonStyleType": "geometry"
+  "cornerRadius": 10
+  "highlightBorderColor": "#606060"
+  "highlightShadowColor": "#000000"
+  "normalBorderColor": "#606060"
+  "normalColor": "#6B6B6B"
+  "normalShadowColor": "#000000"
+  "shadowRadius": 3
+"asteriskButton":
+  "action":
+    "character": "*"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "asteriskButtonBackground"
+  "foregroundStyle":
+  - "asteriskButtonForegroundStyle"
+  "hintStyle": "asteriskButtonHintStyle"
+"asteriskButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"asteriskButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "*"
+"asteriskButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "*"
+"asteriskButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "asteriskButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"atButton":
+  "action":
+    "character": "@"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "atButtonBackground"
+  "foregroundStyle":
+  - "atButtonForegroundStyle"
+  "hintStyle": "atButtonHintStyle"
+"atButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"atButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "@"
+"atButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "@"
+"atButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "atButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"backspaceButton":
+  "action": "backspace"
+  "backgroundStyle": "backspaceButtonBackground"
+  "bounds":
+    "alignment": "right"
+    "width": "151/168.75"
+  "foregroundStyle":
+  - "backspaceButtonForegroundStyle"
+  "repeatAction": "backspace"
+  "size":
+    "width": "168.75/1125"
+  "swipeDownAction":
+    "shortcut": "#undo"
+  "swipeUpAction":
+    "shortcut": "#deleteText"
+"backspaceButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D659"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D624"
+  "normalLowerEdgeColor": "#1E1E1E"
+  "size":
+    "width": "168.75/1125"
+"backspaceButtonForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "highlightSystemImageName": "delete.left.fill"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "systemImageName": "delete.left"
+"candidateContextMenu":
+- "action":
+    "sendKeys": "Control+j"
+  "name": "左移"
+- "action":
+    "sendKeys": "Control+k"
+  "name": "右移"
+- "action":
+    "sendKeys": "Control+l"
+  "name": "重置"
+- "action":
+    "sendKeys": "Control+p"
+  "name": "置顶"
+"chinesePeriodButton":
+  "action":
+    "symbol": "。"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "chinesePeriodButtonBackground"
+  "foregroundStyle":
+  - "chinesePeriodButtonForegroundStyle"
+  "hintStyle": "chinesePeriodButtonHintStyle"
+  "size":
+    "width": "112.5/1125"
+"chinesePeriodButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+  "size":
+    "width": "112.5/1125"
+"chinesePeriodButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "。"
+"chinesePeriodButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "。"
+"chinesePeriodButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "chinesePeriodButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"colonButton":
+  "action":
+    "character": ":"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "colonButtonBackground"
+  "foregroundStyle":
+  - "colonButtonForegroundStyle"
+  "hintStyle": "colonButtonHintStyle"
+"colonButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"colonButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "："
+"colonButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "："
+"colonButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "colonButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"colorButtonBackgroundStyle":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D659"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#50A545"
+  "normalLowerEdgeColor": "#1E1E1E"
+"dotButton":
+  "action":
+    "symbol": "."
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "dotButtonBackground"
+  "foregroundStyle":
+  - "dotButtonForegroundStyle"
+  "hintStyle": "dotButtonHintStyle"
+  "notification":
+  - "dotButtonPreeditChangedNotification"
+"dotButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"dotButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "."
+"dotButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "."
+"dotButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "dotButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"dotButtonPreeditChangedForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "."
+"dotButtonPreeditChangedHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "."
+"dotButtonPreeditChangedHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "dotButtonPreeditChangedHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"dotButtonPreeditChangedNotification":
+  "action":
+    "character": "."
+  "backgroundStyle": "dotButtonBackground"
+  "foregroundStyle":
+  - "dotButtonPreeditChangedForegroundStyle"
+  "hintStyle": "dotButtonPreeditChangedHintStyle"
+  "notificationType": "preeditChanged"
+"eightButton":
+  "action":
+    "character": "8"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "eightButtonBackground"
+  "foregroundStyle":
+  - "eightButtonForegroundStyle"
+  "hintStyle": "eightButtonHintStyle"
+"eightButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"eightButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "8"
+"eightButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "8"
+"eightButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "eightButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"enterButton":
+  "action": "enter"
+  "backgroundStyle": "enterButtonBackground"
+  "foregroundStyle":
+  - "enterButtonForegroundStyle"
+  "hintSymbolsStyle": "enterButtonLongPressSymbolsStyle"
+  "notification":
+  - "returnKeyTypeChangedNotification"
+  - "enterButtonPreeditChangedNotification"
+  "size":
+    "width":
+      "percentage": 0.22
+  "swipeDownAction":
+    "shortcut": "#行尾"
+  "swipeUpAction":
+    "shortcut": "#行首"
+"enterButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D659"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#50A545"
+  "normalLowerEdgeColor": "#1E1E1E"
+  "size":
+    "width":
+      "percentage": 0.22
+"enterButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#ffffff"
+  "text": "$returnKeyType"
+"enterButtonLongPressSymbol0ForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "systemImageName": "return"
+"enterButtonLongPressSymbol0Style":
+  "action":
+    "shortcut": "#换行"
+  "foregroundStyle": "enterButtonLongPressSymbol0ForegroundStyle"
+"enterButtonLongPressSymbolsStyle":
+  "backgroundStyle": "longPressSymbolsBackgroundStyle"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "selectedBackgroundStyle": "longPressSymbolsSelectedBackgroundStyle"
+  "selectedIndex": 0
+  "size":
+    "height": 45
+    "width": 45
+  "symbolStyles":
+  - "enterButtonLongPressSymbol0Style"
+"enterButtonPreeditChangedForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "确认"
+"enterButtonPreeditChangedNotification":
+  "backgroundStyle": "systemButtonBackgroundStyle"
+  "foregroundStyle":
+  - "enterButtonPreeditChangedForegroundStyle"
+  "notificationType": "preeditChanged"
+"exclamationMarkButton":
+  "action":
+    "character": "!"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "exclamationMarkButtonBackground"
+  "foregroundStyle":
+  - "exclamationMarkButtonForegroundStyle"
+  "hintStyle": "exclamationMarkButtonHintStyle"
+"exclamationMarkButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"exclamationMarkButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "!"
+"exclamationMarkButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "!"
+"exclamationMarkButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "exclamationMarkButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"expandButton":
+  "action":
+    "shortcut": "#candidatesBarStateToggle"
+  "foregroundStyle": "expandButtonForegroundStyle"
+  "size":
+    "width": 44
+"expandButtonForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "chevron.forward"
+"fiveButton":
+  "action":
+    "character": "5"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "fiveButtonBackground"
+  "foregroundStyle":
+  - "fiveButtonForegroundStyle"
+  "hintStyle": "fiveButtonHintStyle"
+"fiveButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"fiveButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "5"
+"fiveButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "5"
+"fiveButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "fiveButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"forwardSlashButton":
+  "action":
+    "symbol": "/"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "forwardSlashButtonBackground"
+  "foregroundStyle":
+  - "forwardSlashButtonForegroundStyle"
+  "hintStyle": "forwardSlashButtonHintStyle"
+  "notification":
+  - "forwardSlashButtonPreeditChangedNotification"
+"forwardSlashButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"forwardSlashButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "/"
+"forwardSlashButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "/"
+"forwardSlashButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "forwardSlashButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"forwardSlashButtonPreeditChangedForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "/"
+"forwardSlashButtonPreeditChangedHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "/"
+"forwardSlashButtonPreeditChangedHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "forwardSlashButtonPreeditChangedHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"forwardSlashButtonPreeditChangedNotification":
+  "action":
+    "character": "/"
+  "backgroundStyle": "forwardSlashButtonBackground"
+  "foregroundStyle":
+  - "forwardSlashButtonPreeditChangedForegroundStyle"
+  "hintStyle": "forwardSlashButtonPreeditChangedHintStyle"
+  "notificationType": "preeditChanged"
+"fourButton":
+  "action":
+    "character": "4"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "fourButtonBackground"
+  "foregroundStyle":
+  - "fourButtonForegroundStyle"
+  "hintStyle": "fourButtonHintStyle"
+"fourButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"fourButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "4"
+"fourButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "4"
+"fourButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "fourButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"gotoPrimaryKeyboardButton":
+  "action": "returnPrimaryKeyboard"
+  "backgroundStyle": "gotoPrimaryKeyboardButtonBackground"
+  "foregroundStyle":
+  - "gotoPrimaryKeyboardButtonForegroundStyle"
+  "size":
+    "width":
+      "percentage": 0.20000000000000001
+"gotoPrimaryKeyboardButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D659"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#50A545"
+  "normalLowerEdgeColor": "#1E1E1E"
+  "size":
+    "width":
+      "percentage": 0.20000000000000001
+"gotoPrimaryKeyboardButtonForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#ffffff"
+  "systemImageName": "arrow.backward"
+"hashButton":
+  "action":
+    "character": "#"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "hashButtonBackground"
+  "foregroundStyle":
+  - "hashButtonForegroundStyle"
+  "hintStyle": "hashButtonHintStyle"
+"hashButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"hashButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "#"
+"hashButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "#"
+"hashButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "hashButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"horizontalCandidateStyle":
+  "commentColor": "#FFFFFF"
+  "commentFontSize": 10
+  "highlightBackgroundColor": "#D1D1D165"
+  "indexColor": "#FFFFFF"
+  "indexFontSize": 16
+  "preferredBackgroundColor": "#D1D1D165"
+  "preferredCommentColor": "#FFFFFF"
+  "preferredIndexColor": "#FFFFFF"
+  "preferredTextColor": "#FFFFFF"
+  "textColor": "#FFFFFF"
+  "textFontSize": 16
+"horizontalCandidates":
+  "candidateStyle": "horizontalCandidateStyle"
+  "type": "horizontalCandidates"
+"horizontalCandidatesLayout":
+- "HStack":
+    "subviews":
+    - "Cell": "horizontalCandidates"
+    - "Cell": "expandButton"
+"horizontalCandidatesStyle":
+  "backgroundStyle": "keyboardBackgroundStyle"
+  "insets":
+    "bottom": 1
+    "left": 3
+    "top": 8
+"hyphenButton":
+  "action":
+    "character": "-"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "hyphenButtonBackground"
+  "foregroundStyle":
+  - "hyphenButtonForegroundStyle"
+  "hintStyle": "hyphenButtonHintStyle"
+"hyphenButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"hyphenButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "-"
+"hyphenButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "-"
+"hyphenButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "hyphenButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"ideographicCommaButton":
+  "action":
+    "symbol": "、"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "ideographicCommaButtonBackground"
+  "foregroundStyle":
+  - "ideographicCommaButtonForegroundStyle"
+  "hintStyle": "ideographicCommaButtonHintStyle"
+"ideographicCommaButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"ideographicCommaButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "、"
+"ideographicCommaButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "、"
+"ideographicCommaButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "ideographicCommaButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"keyboardBackgroundStyle":
+  "buttonStyleType": "geometry"
+  "normalColor": "#00000003"
+"keyboardHeight": 160
+"keyboardLayout":
+- "HStack":
+    "subviews":
+    - "Cell": "oneButton"
+    - "Cell": "twoButton"
+    - "Cell": "threeButton"
+    - "Cell": "fourButton"
+    - "Cell": "fiveButton"
+    - "Cell": "sixButton"
+    - "Cell": "sevenButton"
+    - "Cell": "eightButton"
+    - "Cell": "nineButton"
+    - "Cell": "zeroButton"
+- "HStack":
+    "subviews":
+    - "Cell": "hyphenButton"
+    - "Cell": "forwardSlashButton"
+    - "Cell": "colonButton"
+    - "Cell": "semicolonButton"
+    - "Cell": "leftParenthesisButton"
+    - "Cell": "rightParenthesisButton"
+    - "Cell": "moneyButton"
+    - "Cell": "atButton"
+    - "Cell": "leftCurlyQuoteButton"
+    - "Cell": "rightCurlyQuoteButton"
+- "HStack":
+    "subviews":
+    - "Cell": "symbolicButton"
+    - "Cell": "plusButton"
+    - "Cell": "asteriskButton"
+    - "Cell": "ideographicCommaButton"
+    - "Cell": "hashButton"
+    - "Cell": "questionMarkEnButton"
+    - "Cell": "exclamationMarkButton"
+    - "Cell": "dotButton"
+    - "Cell": "backspaceButton"
+- "HStack":
+    "subviews":
+    - "Cell": "gotoPrimaryKeyboardButton"
+    - "Cell": "chinesePeriodButton"
+    - "Cell": "numericSpaceButton"
+    - "Cell": "numericEqualButton"
+    - "Cell": "enterButton"
+"keyboardStyle":
+  "backgroundStyle": "keyboardBackgroundStyle"
+"leftCurlyQuoteButton":
+  "action":
+    "symbol": "“"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "leftCurlyQuoteButtonBackground"
+  "foregroundStyle":
+  - "leftCurlyQuoteButtonForegroundStyle"
+  "hintStyle": "leftCurlyQuoteButtonHintStyle"
+"leftCurlyQuoteButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"leftCurlyQuoteButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "“"
+"leftCurlyQuoteButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "“"
+"leftCurlyQuoteButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "leftCurlyQuoteButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"leftParenthesisButton":
+  "action":
+    "character": "("
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "leftParenthesisButtonBackground"
+  "foregroundStyle":
+  - "leftParenthesisButtonForegroundStyle"
+  "hintStyle": "leftParenthesisButtonHintStyle"
+"leftParenthesisButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"leftParenthesisButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "("
+"leftParenthesisButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "("
+"leftParenthesisButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "leftParenthesisButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"longPressSymbolsBackgroundStyle":
+  "borderSize": 0.5
+  "buttonStyleType": "geometry"
+  "cornerRadius": 10
+  "highlightBorderColor": "#606060"
+  "highlightColor": "#50A545"
+  "highlightShadowColor": "#000000"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalBorderColor": "#606060"
+  "normalColor": "#6B6B6B"
+  "normalShadowColor": "#000000"
+  "shadowRadius": 3
+"longPressSymbolsSelectedBackgroundStyle":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#50A545"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#50A545"
+  "normalLowerEdgeColor": "#1E1E1E"
+"moneyButton":
+  "action":
+    "character": "$"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "moneyButtonBackground"
+  "foregroundStyle":
+  - "moneyButtonForegroundStyle"
+  "hintStyle": "moneyButtonHintStyle"
+"moneyButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"moneyButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "¥"
+"moneyButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "¥"
+"moneyButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "moneyButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"nineButton":
+  "action":
+    "character": "9"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "nineButtonBackground"
+  "foregroundStyle":
+  - "nineButtonForegroundStyle"
+  "hintStyle": "nineButtonHintStyle"
+"nineButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"nineButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "9"
+"nineButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "9"
+"nineButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "nineButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"numericEqualButton":
+  "action":
+    "character": "="
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "numericEqualButtonBackground"
+  "foregroundStyle":
+  - "numericEqualButtonForegroundStyle"
+  "hintStyle": "numericEqualButtonHintStyle"
+  "size":
+    "width": "112.5/1125"
+"numericEqualButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+  "size":
+    "width": "112.5/1125"
+"numericEqualButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "="
+"numericEqualButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "="
+"numericEqualButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "numericEqualButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"numericSpaceButton":
+  "action": "space"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "numericSpaceButtonBackground"
+  "foregroundStyle":
+  - "numericSpaceButtonForegroundStyle"
+"numericSpaceButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"numericSpaceButtonForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "systemImageName": "space"
+"oneButton":
+  "action":
+    "character": "1"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "oneButtonBackground"
+  "foregroundStyle":
+  - "oneButtonForegroundStyle"
+  "hintStyle": "oneButtonHintStyle"
+"oneButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"oneButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "1"
+"oneButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "1"
+"oneButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "oneButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"plusButton":
+  "action":
+    "character": "+"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "plusButtonBackground"
+  "foregroundStyle":
+  - "plusButtonForegroundStyle"
+  "hintStyle": "plusButtonHintStyle"
+"plusButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"plusButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "+"
+"plusButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "+"
+"plusButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "plusButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"preeditForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 17
+  "normalColor": "#FFFFFF"
+"preeditHeight": 21
+"preeditStyle":
+  "backgroundStyle": "keyboardBackgroundStyle"
+  "foregroundStyle": "preeditForegroundStyle"
+  "insets":
+    "left": 4
+    "top": 2
+"questionMarkEnButton":
+  "action":
+    "character": "?"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "questionMarkEnButtonBackground"
+  "foregroundStyle":
+  - "questionMarkEnButtonForegroundStyle"
+  "hintStyle": "questionMarkEnButtonHintStyle"
+"questionMarkEnButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"questionMarkEnButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "?"
+"questionMarkEnButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "?"
+"questionMarkEnButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "questionMarkEnButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"returnKeyTypeChangedNotification":
+  "backgroundStyle": "colorButtonBackgroundStyle"
+  "foregroundStyle": "colorButtonForegroundStyle"
+  "notificationType": "returnKeyType"
+  "returnKeyType": []
+"rightCurlyQuoteButton":
+  "action":
+    "symbol": "”"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "rightCurlyQuoteButtonBackground"
+  "foregroundStyle":
+  - "rightCurlyQuoteButtonForegroundStyle"
+  "hintStyle": "rightCurlyQuoteButtonHintStyle"
+"rightCurlyQuoteButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"rightCurlyQuoteButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "”"
+"rightCurlyQuoteButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "”"
+"rightCurlyQuoteButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "rightCurlyQuoteButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"rightParenthesisButton":
+  "action":
+    "character": ")"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "rightParenthesisButtonBackground"
+  "foregroundStyle":
+  - "rightParenthesisButtonForegroundStyle"
+  "hintStyle": "rightParenthesisButtonHintStyle"
+"rightParenthesisButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"rightParenthesisButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": ")"
+"rightParenthesisButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": ")"
+"rightParenthesisButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "rightParenthesisButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"rimeSchemaChangedNotification":
+  "backgroundStyle": "alphabeticButtonBackgroundStyle"
+  "foregroundStyle":
+  - "spaceButtonForegroundStyle"
+  - "spaceButtonRimeSchemaForegroundStyle"
+  "notificationType": "rime"
+  "rimeNotificationType": "schemaChanged"
+"scaleAnimation":
+  "animationType": "scale"
+  "isAutoReverse": true
+  "pressDuration": 60
+  "releaseDuration": 80
+  "scale": 0.87
+"semicolonButton":
+  "action":
+    "character": ";"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "semicolonButtonBackground"
+  "foregroundStyle":
+  - "semicolonButtonForegroundStyle"
+  "hintStyle": "semicolonButtonHintStyle"
+"semicolonButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"semicolonButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "；"
+"semicolonButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 16
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "；"
+"semicolonButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "semicolonButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"sevenButton":
+  "action":
+    "character": "7"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "sevenButtonBackground"
+  "foregroundStyle":
+  - "sevenButtonForegroundStyle"
+  "hintStyle": "sevenButtonHintStyle"
+"sevenButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"sevenButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "7"
+"sevenButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "7"
+"sevenButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "sevenButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"sixButton":
+  "action":
+    "character": "6"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "sixButtonBackground"
+  "foregroundStyle":
+  - "sixButtonForegroundStyle"
+  "hintStyle": "sixButtonHintStyle"
+"sixButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"sixButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "6"
+"sixButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "6"
+"sixButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "sixButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"symbolicButton":
+  "action":
+    "keyboardType": "symbolic"
+  "backgroundStyle": "symbolicButtonBackground"
+  "bounds":
+    "alignment": "left"
+    "width": "151/168.75"
+  "foregroundStyle":
+  - "symbolicButtonForegroundStyle"
+  "size":
+    "width": "168.75/1125"
+"symbolicButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D659"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D624"
+  "normalLowerEdgeColor": "#1E1E1E"
+  "size":
+    "width": "168.75/1125"
+"symbolicButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 18
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "#+="
+"systemButtonBackgroundStyle":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D659"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D624"
+  "normalLowerEdgeColor": "#1E1E1E"
+"threeButton":
+  "action":
+    "character": "3"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "threeButtonBackground"
+  "foregroundStyle":
+  - "threeButtonForegroundStyle"
+  "hintStyle": "threeButtonHintStyle"
+"threeButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"threeButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "3"
+"threeButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "3"
+"threeButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "threeButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"toolbarClipboardButton":
+  "action":
+    "shortcut": "#showPasteboardView"
+  "foregroundStyle":
+  - "toolbarClipboardButtonForegroundStyle"
+"toolbarClipboardButtonForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "clipboard"
+"toolbarDismissButton":
+  "action": "dismissKeyboard"
+  "foregroundStyle":
+  - "toolbarDismissButtonForegroundStyle"
+"toolbarDismissButtonForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "chevron.down"
+"toolbarHeight": 45
+"toolbarKeyboardEmojiButton":
+  "action":
+    "keyboardType": "emoji"
+  "foregroundStyle":
+  - "toolbarKeyboardEmojiButtonForegroundStyle"
+"toolbarKeyboardEmojiButtonForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "face.dashed"
+"toolbarKeyboardSymbolicButton":
+  "action":
+    "keyboardType": "symbolics"
+  "foregroundStyle":
+  - "toolbarKeyboardSymbolicButtonForegroundStyle"
+"toolbarKeyboardSymbolicButtonForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "number"
+"toolbarLayout":
+- "HStack":
+    "subviews":
+    - "Cell": "toolbarRimeSwitcherButton"
+    - "Cell": "toolbarKeyboardSymbolicButton"
+    - "Cell": "toolbarKeyboardEmojiButton"
+    - "Cell": "toolbarClipboardButton"
+    - "Cell": ""
+    - "Cell": ""
+    - "Cell": ""
+    - "Cell": ""
+    - "Cell": ""
+    - "Cell": "toolbarDismissButton"
+"toolbarStyle":
+  "backgroundStyle": "keyboardBackgroundStyle"
+  "insets":
+    "top": 6
+"twoButton":
+  "action":
+    "character": "2"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "twoButtonBackground"
+  "foregroundStyle":
+  - "twoButtonForegroundStyle"
+  "hintStyle": "twoButtonHintStyle"
+"twoButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"twoButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "2"
+"twoButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "2"
+"twoButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "twoButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"verticalBackspaceButtonStyle":
+  "action": "backspace"
+  "backgroundStyle": "systemButtonBackgroundStyle"
+  "foregroundStyle": "verticalBackspaceButtonStyleForegroundStyle"
+"verticalBackspaceButtonStyleForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "delete.left"
+"verticalCandidateStyle":
+  "commentColor": "#FFFFFF"
+  "commentFontSize": 10
+  "highlightBackgroundColor": "#D1D1D165"
+  "indexColor": "#FFFFFF"
+  "indexFontSize": 16
+  "insets":
+    "bottom": 4
+    "left": 6
+    "right": 6
+    "top": 4
+  "preferredBackgroundColor": "#D1D1D165"
+  "preferredCommentColor": "#FFFFFF"
+  "preferredIndexColor": "#FFFFFF"
+  "preferredTextColor": "#FFFFFF"
+  "textColor": "#FFFFFF"
+  "textFontSize": 16
+"verticalCandidates":
+  "candidateStyle": "verticalCandidateStyle"
+  "insets":
+    "bottom": 8
+    "left": 8
+    "right": 8
+    "top": 8
+  "maxColumns": 6
+  "maxRows": 5
+  "separatorColor": "#38383A"
+  "type": "verticalCandidates"
+"verticalCandidatesLayout":
+- "HStack":
+    "subviews":
+    - "Cell": "verticalCandidates"
+- "HStack":
+    "style": "verticalLastRowStyle"
+    "subviews":
+    - "Cell": "verticalReturnButtonStyle"
+    - "Cell": "verticalPageUpButtonStyle"
+    - "Cell": "verticalPageDownButtonStyle"
+    - "Cell": "verticalBackspaceButtonStyle"
+"verticalCandidatesStyle":
+  "backgroundStyle": "keyboardBackgroundStyle"
+"verticalLastRowStyle":
+  "size":
+    "height": 45
+"verticalPageDownButtonStyle":
+  "action":
+    "shortcut": "#verticalCandidatesPageDown"
+  "backgroundStyle": "systemButtonBackgroundStyle"
+  "foregroundStyle": "verticalPageDownButtonStyleForegroundStyle"
+"verticalPageDownButtonStyleForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "chevron.down"
+"verticalPageUpButtonStyle":
+  "action":
+    "shortcut": "#verticalCandidatesPageUp"
+  "backgroundStyle": "systemButtonBackgroundStyle"
+  "foregroundStyle": "verticalPageUpButtonStyleForegroundStyle"
+"verticalPageUpButtonStyleForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "chevron.up"
+"verticalReturnButtonStyle":
+  "action":
+    "shortcut": "#candidatesBarStateToggle"
+  "backgroundStyle": "systemButtonBackgroundStyle"
+  "foregroundStyle": "verticalReturnButtonStyleForegroundStyle"
+"verticalReturnButtonStyleForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": 20
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "arrow.backward"
+"zeroButton":
+  "action":
+    "character": "0"
+  "animation":
+  - "scaleAnimation"
+  "backgroundStyle": "zeroButtonBackground"
+  "foregroundStyle":
+  - "zeroButtonForegroundStyle"
+  "hintStyle": "zeroButtonHintStyle"
+"zeroButtonBackground":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#D1D1D624"
+  "highlightLowerEdgeColor": "#1D1D1D"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#D1D1D165"
+  "normalLowerEdgeColor": "#1E1E1E"
+"zeroButtonForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#FFFFFF"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "0"
+"zeroButtonHintForegroundStyle":
+  "buttonStyleType": "text"
+  "fontSize": 22.5
+  "highlightColor": "#ffffff"
+  "insets":
+    "bottom": 3
+    "left": 3
+    "right": 3
+    "top": 3
+  "normalColor": "#FFFFFF"
+  "text": "0"
+"zeroButtonHintStyle":
+  "backgroundStyle": "alphabeticHintBackgroundStyle"
+  "foregroundStyle": "zeroButtonHintForegroundStyle"
+  "size":
+    "height": 45
+    "width": 45
+"toolbarRimeSwitcherButton":
+  "action":
+    "shortcut": "#RimeSwitcher"
+  "foregroundStyle":
+  - "toolbarRimeSwitcherButtonForegroundStyle"
+"toolbarRimeSwitcherButtonForegroundStyle":
+  "buttonStyleType": "systemImage"
+  "fontSize": !!int "20"
+  "highlightColor": "#FFFFFF"
+  "normalColor": "#FFFFFF"
+  "systemImageName": "switch.2"

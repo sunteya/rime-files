@@ -1,0 +1,221 @@
+"floatTargetScale":
+  "x": 0.80000000000000004
+  "y": 0.59999999999999998
+"floatingKeyboardButtonBackgroundStyle":
+  "buttonStyleType": "geometry"
+  "cornerRadius": 8.5
+  "highlightColor": "#E6E6E6"
+  "highlightLowerEdgeColor": "#898A8D"
+  "insets":
+    "bottom": 6
+    "left": 3
+    "right": 3
+    "top": 6
+  "normalColor": "#FFFFFF"
+  "normalLowerEdgeColor": "#898A8D"
+"keyboardBackgroundStyle":
+  "buttonStyleType": "geometry"
+  "normalColor": "#ffffff03"
+"keyboardLayout":
+- "HStack":
+    "subviews":
+    - "Cell": "toolbarHamster3Button"
+    - "Cell": "toolbarKeyboardDefinition"
+    - "Cell": "toolbarFeedbackButton"
+    - "Cell": "toolbarCheckUpdateButton"
+- "HStack":
+    "subviews":
+    - "Cell": "toolbarSkinButton"
+    - "Cell": "toolbarSkinPreference"
+    - "Cell": "toolbarRimeSyncButton"
+    - "Cell": "toolbarToggleEmbeddedButton"
+"keyboardStyle":
+  "backgroundStyle": "keyboardBackgroundStyle"
+  "insets":
+    "bottom": 10
+    "left": 12
+    "right": 12
+    "top": 10
+"toolbarCheckUpdateButton":
+  "action":
+    "openURL": "https://apps.apple.com/cn/app/%E5%85%83%E4%B9%A6%E8%BE%93%E5%85%A5%E6%B3%95/id6744464701"
+  "backgroundStyle": "floatingKeyboardButtonBackgroundStyle"
+  "foregroundStyle":
+  - "toolbarCheckUpdateButtonForegroundStyleSystemImage"
+  - "toolbarCheckUpdateButtonForegroundStyleText"
+"toolbarCheckUpdateButtonForegroundStyleSystemImage":
+  "buttonStyleType": "systemImage"
+  "center":
+    "y": 0.40000000000000002
+  "fontSize": 20
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "systemImageName": "arrow.down.circle"
+"toolbarCheckUpdateButtonForegroundStyleText":
+  "buttonStyleType": "text"
+  "center":
+    "y": 0.69999999999999996
+  "fontSize": 13
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "text": "更新"
+"toolbarFeedbackButton":
+  "action":
+    "openURL": "hamster3://com.ihsiao.apps.hamster3/feedback"
+  "backgroundStyle": "floatingKeyboardButtonBackgroundStyle"
+  "foregroundStyle":
+  - "toolbarFeedbackButtonForegroundStyleSystemImage"
+  - "toolbarFeedbackButtonForegroundStyleText"
+"toolbarFeedbackButtonForegroundStyleSystemImage":
+  "buttonStyleType": "systemImage"
+  "center":
+    "y": 0.40000000000000002
+  "fontSize": 20
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "systemImageName": "iphone.radiowaves.left.and.right"
+"toolbarFeedbackButtonForegroundStyleText":
+  "buttonStyleType": "text"
+  "center":
+    "y": 0.69999999999999996
+  "fontSize": 13
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "text": "震动"
+"toolbarHamster3Button":
+  "action": "settings"
+  "backgroundStyle": "floatingKeyboardButtonBackgroundStyle"
+  "foregroundStyle":
+  - "toolbarHamster3ButtonForegroundStyleSystemImage"
+  - "toolbarHamster3ButtonForegroundStyleText"
+"toolbarHamster3ButtonForegroundStyleSystemImage":
+  "buttonStyleType": "systemImage"
+  "center":
+    "y": 0.40000000000000002
+  "fontSize": 20
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "systemImageName": "atom"
+"toolbarHamster3ButtonForegroundStyleText":
+  "buttonStyleType": "text"
+  "center":
+    "y": 0.69999999999999996
+  "fontSize": 13
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "text": "元书"
+"toolbarKeyboardDefinition":
+  "action":
+    "openURL": "hamster3://com.ihsiao.apps.hamster3/finder?action=openSkinsFile&fileURL=jsonnet/Buttons/README.md"
+  "backgroundStyle": "floatingKeyboardButtonBackgroundStyle"
+  "foregroundStyle":
+  - "toolbarKeyboardDefinitionForegroundStyleSystemImage"
+  - "toolbarKeyboardDefinitionForegroundStyleText"
+"toolbarKeyboardDefinitionForegroundStyleSystemImage":
+  "buttonStyleType": "systemImage"
+  "center":
+    "y": 0.40000000000000002
+  "fontSize": 20
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "systemImageName": "keyboard.badge.ellipsis"
+"toolbarKeyboardDefinitionForegroundStyleText":
+  "buttonStyleType": "text"
+  "center":
+    "y": 0.69999999999999996
+  "fontSize": 13
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "text": "按键"
+"toolbarRimeSyncButton":
+  "action":
+    "openURL": "hamster3://com.ihsiao.apps.hamster3/rime?action=sync"
+  "backgroundStyle": "floatingKeyboardButtonBackgroundStyle"
+  "foregroundStyle":
+  - "toolbarRimeSyncButtonForegroundStyleSystemImage"
+  - "toolbarRimeSyncButtonForegroundStyleText"
+"toolbarRimeSyncButtonForegroundStyleSystemImage":
+  "buttonStyleType": "systemImage"
+  "center":
+    "y": 0.40000000000000002
+  "fontSize": 20
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "systemImageName": "checkmark.icloud"
+"toolbarRimeSyncButtonForegroundStyleText":
+  "buttonStyleType": "text"
+  "center":
+    "y": 0.69999999999999996
+  "fontSize": 13
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "text": "同步"
+"toolbarSkinButton":
+  "action":
+    "openURL": "hamster3://com.ihsiao.apps.hamster3/keyboardSkins"
+  "backgroundStyle": "floatingKeyboardButtonBackgroundStyle"
+  "foregroundStyle":
+  - "toolbarSkinButtonForegroundStyleSystemImage"
+  - "toolbarSkinButtonForegroundStyleText"
+"toolbarSkinButtonForegroundStyleSystemImage":
+  "buttonStyleType": "systemImage"
+  "center":
+    "y": 0.40000000000000002
+  "fontSize": 20
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "systemImageName": "tshirt"
+"toolbarSkinButtonForegroundStyleText":
+  "buttonStyleType": "text"
+  "center":
+    "y": 0.69999999999999996
+  "fontSize": 13
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "text": "皮肤"
+"toolbarSkinPreference":
+  "action":
+    "openURL": "hamster3://com.ihsiao.apps.hamster3/finder?action=openSkinsFile&fileURL=jsonnet/Settings.libsonnet"
+  "backgroundStyle": "floatingKeyboardButtonBackgroundStyle"
+  "foregroundStyle":
+  - "toolbarSkinPreferenceForegroundStyleSystemImage"
+  - "toolbarSkinPreferenceForegroundStyleText"
+"toolbarSkinPreferenceForegroundStyleSystemImage":
+  "buttonStyleType": "systemImage"
+  "center":
+    "y": 0.40000000000000002
+  "fontSize": 20
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "systemImageName": "wrench.and.screwdriver"
+"toolbarSkinPreferenceForegroundStyleText":
+  "buttonStyleType": "text"
+  "center":
+    "y": 0.69999999999999996
+  "fontSize": 13
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "text": "微调"
+"toolbarToggleEmbeddedButton":
+  "action":
+    "shortcut": "#toggleEmbeddedInputMode"
+  "backgroundStyle": "floatingKeyboardButtonBackgroundStyle"
+  "foregroundStyle":
+  - "toolbarToggleEmbeddedButtonForegroundStyleSystemImage"
+  - "toolbarToggleEmbeddedButtonForegroundStyleText"
+"toolbarToggleEmbeddedButtonForegroundStyleSystemImage":
+  "buttonStyleType": "systemImage"
+  "center":
+    "y": 0.40000000000000002
+  "fontSize": 20
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "systemImageName": "square.and.pencil"
+"toolbarToggleEmbeddedButtonForegroundStyleText":
+  "buttonStyleType": "text"
+  "center":
+    "y": 0.69999999999999996
+  "fontSize": 13
+  "highlightColor": "#000000"
+  "normalColor": "#000000"
+  "text": "内嵌"

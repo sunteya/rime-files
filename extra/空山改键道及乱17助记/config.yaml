@@ -1,0 +1,56 @@
+alphabetic:
+  iPad:
+    floating: "alphabeticPortrait"
+    landscape: "alphabeticLandscape"
+    portrait: "alphabeticPortrait"
+  iPhone:
+    landscape: "alphabeticLandscape"
+    portrait: "alphabeticPortrait"
+emoji:
+  iPad:
+    floating: "emojiPortrait"
+    landscape: "emojiLandscape"
+    portrait: "emojiPortrait"
+  iPhone:
+    landscape: "emojiLandscape"
+    portrait: "emojiPortrait"
+numeric:
+  iPad:
+    floating: "numericPortrait"
+    landscape: "numericLandscape"
+    portrait: "numericPortrait"
+  iPhone:
+    landscape: "numericLandscape"
+    portrait: "numericPortrait"
+numericRowEn:
+  iPad:
+    floating: "numericRowEnPortrait"
+    landscape: "numericRowEnLandscape"
+    portrait: "numericRowEnPortrait"
+  iPhone:
+    landscape: "numericRowEnLandscape"
+    portrait: "numericRowEnPortrait"
+panel:
+  iPad:
+    floating: "panelPortrait"
+    landscape: "panelLandscape"
+    portrait: "panelPortrait"
+  iPhone:
+    landscape: "panelLandscape"
+    portrait: "panelPortrait"
+pinyin:
+  iPad:
+    floating: "pinyinPortrait"
+    landscape: "pinyinLandscape"
+    portrait: "pinyinPortrait"
+  iPhone:
+    landscape: "pinyinLandscape"
+    portrait: "pinyinPortrait"
+symbolics:
+  iPad:
+    floating: "symbolicsPortrait"
+    landscape: "symbolicsLandscape"
+    portrait: "symbolicsPortrait"
+  iPhone:
+    landscape: "symbolicsLandscape"
+    portrait: "symbolicsPortrait"
