@@ -14,15 +14,13 @@ if [ ! -s "$user_combiner_dict" ]; then
   cp "$combiner_user_template" "$user_combiner_dict"
 fi
 
-(
-  cd "$combiner"
-  python3 scripts/generate_phrase_combiner.py
-)
+python3 "$root/scripts/generate_phrase_combiner.py"
 
 rsync -aL \
   --exclude=".*" \
   --exclude="scripts/" \
   --exclude="README.md" \
+  --exclude="phrase_combiner.dict.yaml" \
   --exclude="phrase_combiner.user.dict.yaml" \
   "$combiner/" \
   "$root/"

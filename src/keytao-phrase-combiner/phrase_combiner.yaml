@@ -15,4 +15,4 @@ patch:
     enable_user_dict: false
     initial_quality: 10000
 
-  recognizer/patterns/phrase_combiner: "^[a-z]+[`;][a-z`;]*$"
+  recognizer/patterns/phrase_combiner: "^[a-z]+;[a-z;]*$"

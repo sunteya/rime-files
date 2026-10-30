@@ -5,12 +5,12 @@ function M.init(env)
 end
 
 function M.func(input, segment, env)
-  if not input:find("[`;]") or not input:match("^[a-z][a-z`;]*$")
-      or input:find("[`;][`;]") then
+  if not input:find(";") or not input:match("^[a-z][a-z;]*$")
+      or input:find(";;") then
     return
   end
 
-  local code = input:gsub("[`;]", "")
+  local code = input:gsub(";", "")
   local lookup_segment = Segment(0, #code)
   lookup_segment.tags = Set({ "phrase_combiner" })
   local translation = env.translator:query(code, lookup_segment)

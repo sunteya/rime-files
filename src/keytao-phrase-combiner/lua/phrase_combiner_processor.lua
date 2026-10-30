@@ -23,16 +23,16 @@ local function process(key_event, env)
     return kNoop
   end
 
-  if key == "grave" or key == "semicolon" then
-    if input:match("^[a-z][a-z`;]*$") and input:match("[a-z]$")
-        and not input:find("[`;][`;]")
-        and (input:find("[`;]") or context:has_menu()) then
+  if key == "semicolon" then
+    if input:match("^[a-z][a-z;]*$") and input:match("[a-z]$")
+        and not input:find(";;")
+        and (input:find(";") or context:has_menu()) then
       context:push_input(string.char(key_event.keycode))
     end
     return kAccepted
   end
 
-  if input:match("^[a-z]") and input:find("[`;]") and is_letter(key_event) then
+  if input:match("^[a-z]") and input:find(";") and is_letter(key_event) then
     if context:push_input(string.char(key_event.keycode)) then
       return kAccepted
     end

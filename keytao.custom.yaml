@@ -11,11 +11,11 @@ patch:
   key_binder/bindings/+:
     - { accept: Shift+space, toggle: ascii_punct, when: always }
 
-  # 让 / 和 ` 走半角标点直接上屏，避免作为编码字符或反查前缀弹出候选。
-  speller/alphabet: "abcdefghijklmnopqrstuvwxyz;"
-  speller/initials: "abcdefghijklmnopqrstuvwxyz;"
+  # / 保持直接输出；反引号恢复编码通配及相关反查。
+  speller/alphabet: "abcdefghijklmnopqrstuvwxyz;`"
+  speller/initials: "abcdefghijklmnopqrstuvwxyz;`"
 
-  recognizer/patterns/danzi_lookup: "^$"
+  recognizer/patterns/danzi_lookup: "[a-z`]*`+[a-z`]*"
   recognizer/patterns/pinyin: "^$"
   punctuator/full_shape/+:
     "'": { pair: [ "‘", "’" ] }
