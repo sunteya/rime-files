@@ -1,10 +1,17 @@
 #!/usr/bin/env bash
 
-set -x
+set -euxo pipefail
 
 root="$(cd "$(dirname "$0")/.." && pwd)"
-src="$root/src"
-rime_ice="$src/rime-ice"
+repo="$root/repo"
+rime_ice="$repo/rime-ice"
+
+if [ -e "$rime_ice/.git" ]; then
+  git -C "$rime_ice" pull --ff-only
+else
+  mkdir -p "$repo"
+  git clone https://github.com/iDvel/rime-ice.git "$rime_ice"
+fi
 
 rsync -aL \
   --exclude='.git/' \

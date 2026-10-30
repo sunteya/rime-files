@@ -3,7 +3,7 @@
 set -euo pipefail
 
 root="$(cd "$(dirname "$0")/.." && pwd)"
-combiner="$root/src/keytao-phrase-combiner"
+combiner="$root/extra/keytao-phrase-combiner"
 user_dir="$root/user"
 user_combiner_dict="$user_dir/phrase_combiner.user.dict.yaml"
 combiner_user_template="$combiner/phrase_combiner.user.dict.yaml"

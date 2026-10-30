@@ -1,13 +1,20 @@
 #!/usr/bin/env bash
 
-set -x
+set -euxo pipefail
 
 root="$(cd "$(dirname "$0")/.." && pwd)"
-src="$root/src"
-keytao="$src/KeyTao"
+repo="$root/repo"
+keytao="$repo/KeyTao"
 user_dir="$root/user"
 user_keytao_dict="$user_dir/keytao.user.dict.yaml"
 keytao_user_template="$keytao/rime/keytao.user.dict.yaml"
+
+if [ -e "$keytao/.git" ]; then
+  git -C "$keytao" pull --ff-only
+else
+  mkdir -p "$repo"
+  git clone https://github.com/xkinput/KeyTao.git "$keytao"
+fi
 
 mkdir -p "$user_dir"
 
