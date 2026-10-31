@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Upload Rime configuration files or skins to File Browser."""
+"""Upload Rime configuration files or skins to File Browser or MiXplorer."""
 
 from __future__ import annotations
 
@@ -45,13 +45,35 @@ def target_url(value: str) -> str:
     if parsed.scheme not in {"http", "https"} or not parsed.netloc:
         raise ValueError("目标地址必须是完整的 http:// 或 https:// 地址")
     if not parsed.path or parsed.path == "/":
-        raise ValueError("目标地址必须包含完整的 File Browser 路径，例如 http://主机/files/Skins/")
+        raise ValueError("目标地址必须包含完整目录路径，例如 http://主机/Library/Rime/")
     return value
 
 
 def upload_url(base: str, relative: Path) -> str:
     encoded_path = "/".join(quote(part, safe="") for part in relative.parts)
-    return f"{base}{encoded_path}?override=true"
+    return f"{base}{encoded_path}"
+
+
+def create_remote_directories(base: str, relative: Path, created: set[Path]) -> None:
+    for directory in reversed(relative.parents):
+        if directory in created:
+            continue
+
+        directory_url = upload_url(base, directory) + "/"
+        try:
+            request = Request(directory_url, method="MKCOL")
+            with urlopen(request, timeout=120) as response:
+                if response.status not in {200, 201, 204}:
+                    raise RuntimeError(f"创建目录 {directory}: HTTP {response.status}")
+        except HTTPError as error:
+            if error.code != 405:
+                raise
+            error.close()
+            # MKCOL returns 405 for existing directories; confirm they are accessible.
+            with urlopen(Request(directory_url, method="HEAD"), timeout=120) as response:
+                if response.status != 200:
+                    raise RuntimeError(f"检查目录 {directory}: HTTP {response.status}")
+        created.add(directory)
 
 
 def fetch_anonymous_token(target: str) -> str:
@@ -118,7 +140,17 @@ def upload_files(
         print("没有找到符合条件的文件。")
         return 0
 
-    base = api_base(target)
+    parsed = urlsplit(target)
+    target_path = parsed.path.rstrip("/") + "/"
+    file_browser = any(marker in target_path for marker in ("/files/", "/api/resources/"))
+    base = (
+        api_base(target)
+        if file_browser
+        else urlunsplit((parsed.scheme, parsed.netloc, quote(target_path, safe="/%"), "", ""))
+    )
+    if fetch_token and not file_browser:
+        raise ValueError("--anonymous-token 仅适用于 File Browser")
+
     auth_token = None
     if fetch_token:
         try:
@@ -135,17 +167,23 @@ def upload_files(
     print(f"待上传: {len(files)} 个文件")
 
     failed = 0
+    created_directories = {Path(".")}
     for path, relative in files:
         headers = {"Content-Type": "application/octet-stream"}
         if auth_token:
             headers["X-Auth"] = auth_token
 
         try:
+            if not file_browser:
+                create_remote_directories(base, relative, created_directories)
+            url = upload_url(base, relative)
+            if file_browser:
+                url += "?override=true"
             request = Request(
-                upload_url(base, relative),
+                url,
                 data=path.read_bytes(),
                 headers=headers,
-                method="POST",
+                method="POST" if file_browser else "PUT",
             )
             with urlopen(request, timeout=120) as response:
                 if response.status not in {200, 201, 204}:
@@ -174,12 +212,15 @@ def main() -> int:
     )
     parser.add_argument(
         "target",
-        help="完整的 File Browser 地址，例如 http://主机/files/Skins/",
+        help=(
+            "完整目录地址，例如 http://主机/Library/Rime/；"
+            "含 /files/ 或 /api/resources/ 的地址使用 File Browser，其余使用 MiXplorer"
+        ),
     )
     parser.add_argument(
         "--anonymous-token",
         action="store_true",
-        help="上传前获取一次匿名 Token，并通过 X-Auth 请求头上传",
+        help="仅 File Browser：上传前获取一次匿名 Token，并通过 X-Auth 请求头上传",
     )
     args = parser.parse_args()
 

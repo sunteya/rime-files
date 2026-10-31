@@ -14,8 +14,6 @@ if [ ! -s "$user_combiner_dict" ]; then
   cp "$combiner_user_template" "$user_combiner_dict"
 fi
 
-python3 "$root/scripts/generate_phrase_combiner.py"
-
 rsync -aL \
   --exclude=".*" \
   --exclude="scripts/" \
